@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/react-test-array-sum/static/css/main.7b7f3741.chunk.css",
+    "main.js": "/react-test-array-sum/static/js/main.de12a0ec.chunk.js",
+    "main.js.map": "/react-test-array-sum/static/js/main.de12a0ec.chunk.js.map",
+    "runtime-main.js": "/react-test-array-sum/static/js/runtime-main.349c812f.js",
+    "runtime-main.js.map": "/react-test-array-sum/static/js/runtime-main.349c812f.js.map",
+    "static/js/2.8133685f.chunk.js": "/react-test-array-sum/static/js/2.8133685f.chunk.js",
+    "static/js/2.8133685f.chunk.js.map": "/react-test-array-sum/static/js/2.8133685f.chunk.js.map",
+    "index.html": "/react-test-array-sum/index.html",
+    "static/css/main.7b7f3741.chunk.css.map": "/react-test-array-sum/static/css/main.7b7f3741.chunk.css.map",
+    "static/js/2.8133685f.chunk.js.LICENSE.txt": "/react-test-array-sum/static/js/2.8133685f.chunk.js.LICENSE.txt",
+    "static/media/app.scss": "/react-test-array-sum/static/media/WorkSansRegular.dac6f791.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.349c812f.js",
+    "static/js/2.8133685f.chunk.js",
+    "static/css/main.7b7f3741.chunk.css",
+    "static/js/main.de12a0ec.chunk.js"
+  ]
+}
