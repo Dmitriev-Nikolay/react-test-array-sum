@@ -1,4 +1,4 @@
-# React-burgers
+# React-test-array-sum
 
 **React-test-array-sum app** - test application for adding two numbers and adding their sum to an array.
 
