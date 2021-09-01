@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button component Should render Button component with props 1`] = `ShallowWrapper {}`;
+
+exports[`Button component Should render Button component without props 1`] = `ShallowWrapper {}`;
+
+exports[`Number component Should render Number component with props 1`] = `ShallowWrapper {}`;
+
+exports[`Number component Should render Number component without props 1`] = `ShallowWrapper {}`;

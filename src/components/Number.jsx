@@ -1,17 +1,18 @@
 import React from 'react';
 
-const Number = React.memo(({ change, valueInput, name }) => {
-    
+const Number = React.memo(({ name, change, valueInput }) => {
+
     return (
-        <section className="inputs-block__item">
+        <>
             <input
+                className="inputs-block__item"
                 type="number"
                 min="1"
                 name={ name }
                 value={ valueInput }
                 onChange={ change }
             />
-        </section>
+        </>
     );
 });
 

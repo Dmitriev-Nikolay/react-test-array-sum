@@ -2,13 +2,21 @@ import React from 'react';
 
 import { Number } from '../components';
 
-const InputNumbers = React.memo(({ change, value }) => {
+const InputNumbers = React.memo(({ inputValueObj, handleChange }) => {
 
     return (
         <section className="inputs-block">
             <div className="inputs-block__items">
-                <Number change={ change } valueInput={ value.firstValueInput } name='firstValueInput' />
-                <Number change={ change } valueInput={ value.secondValueInput } name='secondValueInput' />
+                <Number 
+                    change={ handleChange } 
+                    valueInput={ inputValueObj.firstValueInput } 
+                    name='firstValueInput'
+                />
+                <Number 
+                    change={ handleChange } 
+                    valueInput={ inputValueObj.secondValueInput } 
+                    name='secondValueInput'
+                />
             </div>
         </section>
     );

@@ -6,18 +6,15 @@ const ResultArray = React.memo(({ result }) => {
         <section className="array-block">
             {
                 result.length === 0 ?
-                    <p>Начинай</p>
+                    <p className="array-block__start">Начинай</p>
                     :
                     <div className="array-block__result">
-                        {/* { 
+                        { 
                             result.map((num, i) => {
                                 return (
-                                    <p key={ `${ num }_${ i }` }>{ num },</p>
+                                    <p key={ `${ num }_${ i }` }>{ num }</p>
                                 )
                             })
-                        } */}
-                        { 
-                            result
                         }
                     </div>
             }

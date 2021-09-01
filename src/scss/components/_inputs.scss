@@ -1,0 +1,21 @@
+@import "/src/scss/variables";
+@import "/src/scss/libs/mixins";
+
+.inputs-block {
+    margin-bottom: 50px;
+
+    &__items {
+        display: flex;
+
+        input + input {
+            margin-left: 50px;
+        }
+    }
+
+    &__item {
+        padding: 25px 10px;
+        border-radius: $borderRadius;
+        font-size: 32px;
+        text-align: center;
+    }
+}

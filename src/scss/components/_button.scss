@@ -1,0 +1,19 @@
+@import "/src/scss/variables";
+@import "/src/scss/libs/mixins";
+
+button {
+    border-radius: $borderRadius;
+    font-size: 32px;
+    padding: 25px 10px;
+    background: none;
+    cursor: pointer;
+    transition: 0.5s;
+
+    &:hover {
+        transform: scale(1.05);
+    }
+
+    &:active {
+        transform: translateY(8px)
+    }
+}

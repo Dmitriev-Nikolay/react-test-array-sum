@@ -1,17 +1,16 @@
 import React from 'react';
 
-const Button = ({ calcSum, addToArray }) => {
+const Button = React.memo(({ setArray, arrayResult, allSum }) => {
 
-    const onSubmitHandler = () => {
-        calcSum();
-        addToArray();
+    const updateArray = () => {
+        setArray([...arrayResult, allSum]);
     };
 
     return (
-        <section>
-            <button type="button" onClick={ onSubmitHandler }>Выполнить </button>
-        </section>
+        <>
+            <button type="button" onClick={ updateArray }>Выполнить</button>
+        </>
     );
-};
+});
 
 export default Button;
